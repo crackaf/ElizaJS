@@ -1,0 +1,65 @@
+<HTML>
+
+<HEAD>
+    <META NAME="Description" CONTENT="Talk to Eliza!">
+    <TITLE>Eliza, Computer Therapist</TITLE>
+
+    <script src="eliza.js"></script>
+
+</HEAD>
+
+<body onload="start();" bgcolor=#FFFFFF>
+
+
+    <h1>Eliza, the Rogerian Therapist</h1>
+
+    <!-- contents -->
+
+    <p>ELIZA is a computer program that emulates a Rogerian psychotherapist.
+        Just type your questions and concerns and hit return. Eliza will answer
+        you. </p>
+
+
+    <table cellspacing="0" cellpadding="2" border="0" align="center" class="neurotoy">
+        <tr>
+            <th bgcolor=#000000 align="left">
+                <font color="#FFFFFF">Talk to Eliza</Font>
+                </td>
+        </tr>
+        <tr>
+            <td bgcolor=#0097FF>
+                <form name="Eliza" onSubmit="return dialog();">
+                    <textarea rows=14 cols=55 name="log"></textarea>
+                    <center>
+                        <font color=#000000><br>Input:</font>
+                        <INPUT TYPE="text" size=50 NAME="input" VALUE="">
+                    </center>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+
+    <p>When the original ELIZA first
+        appeared in the 60's, some people actually mistook her for
+        human. The illusion of intelligence works best, however,
+        if you limit your conversation to talking about yourself
+        and your life.</p>
+
+    <p>This javascript version of ELIZA was originally written by
+        <a href="http://www.sabren.net/">Michal Wallace</a> and
+        significantly enhanced by
+        <a href="http://www.peccavi.com/">George Dunlop</a>.
+    </p>
+    <div align="center">
+        <br><small>
+            &copy; 1999 manifestation.com
+            [&nbsp;PMB&nbsp;417&nbsp;..&nbsp;10800&nbsp;Alpharetta&nbsp;Hwy,&nbsp;Suite&nbsp;208&nbsp;..&nbsp;Roswell,&nbsp;GA&nbsp;30076&nbsp;]
+            <br>webmaster:&nbsp;<a href="mailto:sabren@manifestation.com">sabren@manifestation.com</a>
+            &nbsp;&nbsp;
+        </small>
+    </div>
+
+</BODY>
+
+</HTML>
