@@ -1,0 +1,14 @@
+body{
+    background-color:#1c1e21;
+    color:#e4e6eb
+}
+
+table{
+    padding: auto;
+    border-width: 0;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}

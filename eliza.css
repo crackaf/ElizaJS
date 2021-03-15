@@ -1,0 +1,13 @@
+body{
+    background-color: white;
+}
+
+table{
+    padding: auto;
+    border-width: 0;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
